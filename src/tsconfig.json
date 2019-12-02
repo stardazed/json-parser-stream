@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es2018",
+		"moduleResolution": "node",
+
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"removeComments": false,
+		"stripInternal": true,
+		"noEmitOnError": true,
+
+		"strict": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		"lib": ["dom", "esnext"],
+		"skipLibCheck": true,
+		"newLine": "LF",
+
+		"outDir": "../build"
+	}
+}
